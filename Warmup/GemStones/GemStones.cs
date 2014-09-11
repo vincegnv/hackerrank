@@ -63,7 +63,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            GemStones gs = new Gemstones();
+            GemStones gs = new GemStones();
             gs.getInput();
             gs.printResult();
             Console.ReadKey();
